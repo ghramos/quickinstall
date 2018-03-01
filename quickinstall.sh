@@ -5,4 +5,4 @@ shopt -s histappend
 echo "HISTTIMEFORMAT='%F %T '"  >> .bashrc
 echo "PROMPT_COMMAND='history -a'" >> .bashrc
 
-apt-get install gpm
+apt-get -y install gpm terminator
